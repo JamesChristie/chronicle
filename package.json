@@ -1,0 +1,38 @@
+{
+  "name": "chronicle",
+  "version": "1.0.0",
+  "description": "A DBT Diary Card Entry and Tracking App",
+  "main": "index.js",
+  "scripts": {
+    "build": "./script/build.sh",
+    "test": "jasmine-ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesChristie/chronicle.git"
+  },
+  "author": "James Christie",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/JamesChristie/chronicle/issues"
+  },
+  "homepage": "https://github.com/JamesChristie/chronicle#readme",
+  "dependencies": {
+    "react": "16.13.1",
+    "typescript": "3.9.5"
+  },
+  "devDependencies": {
+    "@types/enzyme": "3.10.5",
+    "@types/jasmine": "3.5.10",
+    "@types/react": "16.9.35",
+    "@types/react-devtools": "3.6.0",
+    "enzyme": "3.11.0",
+    "jasmine": "3.5.0",
+    "jasmine-ts": "^0.3.0",
+    "mem": ">=4.0.0",
+    "mustache": "4.0.1",
+    "node-sass": "4.14.1",
+    "react-devtools": "4.7.0",
+    "ts-node": "8.10.2"
+  }
+}

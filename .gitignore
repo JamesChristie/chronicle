@@ -1,0 +1,8 @@
+# Build Files
+build
+
+# Node
+node_modules
+
+# Temporary Files
+*~
