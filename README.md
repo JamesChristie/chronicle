@@ -15,7 +15,7 @@ A bash shell (this has not been tested on WSL, but it will probably work fine)
 
 ### Building
 
-The app is configured so that the `npm build` command does it all. This executes the build script provides in the `./script` directory.
+The app is configured so that the `npm build` command does it all. This runs the configured Webpack build process and outputs everything to `./build`.
 
 ### Testing
 
