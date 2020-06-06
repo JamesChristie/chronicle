@@ -1,12 +1,9 @@
-/// <reference types="react" />
-/// <reference types="react-dom" />
+import * as React from 'react'
+import * as ReactDOM from 'react-dom'
 
-const React = require('react')
-const ReactDOM = require('react-dom')
-
-import { Placeholder } from './components/placeholder'
+import { DiaryCard } from './components/DiaryCard'
 
 ReactDOM.render(
-  <Placeholder />,
+  <DiaryCard />,
   document.getElementById('app-root')
 )
