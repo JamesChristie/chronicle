@@ -1,4 +1,5 @@
 import * as React from 'react'
+import { PrescriptionMedicationSection } from './PrescriptionMedicationSection'
 
 export const DiaryCard = () => {
   return <div>
@@ -24,5 +25,7 @@ export const DiaryCard = () => {
       <input type='radio' name='target-behavior-engagement-magnitude' />
       <input type='radio' name='target-behavior-engagement-magnitude' />
     </div>
+
+    <PrescriptionMedicationSection medications={[]} />
   </div>
 }
